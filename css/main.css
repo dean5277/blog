@@ -448,7 +448,7 @@ body {
 }
 .main {
   padding-bottom: 150px;
-  margin-top: 170px;
+  margin-top: 240px;
 }
 @media (max-width: 767px) {
   .main {
@@ -1966,7 +1966,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1716;
+  background: #d1345e;
 }
 .links-of-blogroll {
   font-size: 13px;
