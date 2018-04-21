@@ -80,4 +80,4 @@ deploy:
   type: git
   message: just static
   repo :
-    github: git@github.com:dean5277/blog.git
+    github: git@github.com:dean5277/blog.git,master
