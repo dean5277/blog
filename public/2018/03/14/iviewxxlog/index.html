@@ -102,7 +102,7 @@
 <meta property="og:site_name" content="deanCheng">
 <meta property="og:description" content="2017/05/11 完成table children，请使用组件dTable 2017/05/16 完成合并单元格，请使用组件dTable 2017/08/11 兼容  2.0.0-rc.20版本 1.修复合并单元格时候render只支持字符串的问题，目前可以支持render以及在select单元格里开始合并2.修复部分已知BUG 2018/01/25 兼容 2.9.0 Agent A版本1.修">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-17T08:26:09.448Z">
+<meta property="og:updated_time" content="2018-04-17T18:02:02.966Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="更新日志">
 <meta name="twitter:description" content="2017/05/11 完成table children，请使用组件dTable 2017/05/16 完成合并单元格，请使用组件dTable 2017/08/11 兼容  2.0.0-rc.20版本 1.修复合并单元格时候render只支持字符串的问题，目前可以支持render以及在select单元格里开始合并2.修复部分已知BUG 2018/01/25 兼容 2.9.0 Agent A版本1.修">
@@ -156,6 +156,7 @@
 
 
 
+  <link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -397,30 +398,6 @@
     
 
     
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>觉得文章丰富，就给个打赏吧~认真脸</div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>Donate</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechat.jpg" alt="deanCheng WeChat Pay"/>
-        <p>WeChat Pay</p>
-      </div>
-    
-
-    
-
-    
-
-  </div>
-</div>
-
-      </div>
-    
 
     
 
@@ -517,7 +494,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">10</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -527,7 +504,7 @@
             
             
             <div class="site-state-item site-state-categories">
-              <a href="/categories/index.html">
+              <a href="/essay/index.html">
                 <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
@@ -780,5 +757,7 @@
 
   
 
+  <script type="text/javascript" src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/meting@1.0.1/dist/Meting.min.js"></script>
 </body>
 </html>
