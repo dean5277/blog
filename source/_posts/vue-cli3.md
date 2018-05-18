@@ -58,7 +58,7 @@ vue create my-project
 1. host 表示可访问的ip地址，这里0.0.0.0 表示无限制
 2. port 端口号，如果端口冲突默认会 +1 。
 3. https 是否启动https安全协议访问，默认不开启
-4. hotOnly false 表示开启热加载
+4. hotOnly false 关闭 deverServer.hot 模块在页面编译失败时进行回调
 5. proxy 代理配置，具体配置[可点击这里查看](https://github.com/vuejs/vue-cli/blob/dev/docs/cli-service.md#configuring-proxy)
 
 官方大大对[vue.config.js](https://github.com/vuejs/vue-cli/blob/dev/docs/config.md) 的配置有个具体的介绍 , 以后有机会我们会介绍一下。
