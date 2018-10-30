@@ -1080,12 +1080,12 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background: url("http://7xjfvt.com1.z0.glb.clouddn.com/abc.jpg") no-repeat 100% 76%;
+  background: url("http://jpg.deancheng.com/abc.jpg") no-repeat 100% 76%;
   background-size: 100%;
 }
 @media (max-width: 767px) {
   .header {
-    background: url("http://7xjfvt.com1.z0.glb.clouddn.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180314155945.jpg") no-repeat 40% 100%;
+    background: url("http://jpg.deancheng.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180314155945.jpg") no-repeat 40% 100%;
     background-size: 149%;
   }
 }
